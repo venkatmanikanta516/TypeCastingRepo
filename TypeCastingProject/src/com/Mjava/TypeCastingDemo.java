@@ -1,4 +1,9 @@
+
 package com.Mjava;
+
+import java.util.*;
+
+
 
 public class TypeCastingDemo {
 
@@ -12,6 +17,21 @@ public class TypeCastingDemo {
 		 System.out.println("Long  value : "+j);
 		 System.out.println("Double  value : "+d);
 		 System.out.println("Float  value : "+g);
+		 
+		  ArrayList<String> AL=new ArrayList();
+		// ArrayList  AL=new ArrayList();
+		 
+		 AL.add("First");
+		 AL.add("Second");
+		 AL.add("Third");
+		 AL.add("Fourth");
+		// AL.add(256);
+		 
+		 
+		 
+		 System.out.println(AL);
+		 
+		 
 
 	}
 
